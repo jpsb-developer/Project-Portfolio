@@ -1,0 +1,193 @@
+body{
+    background: #0F141E;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    color: #fff;
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.navigation ul{
+    display: flex;
+}
+.navigation a,h1{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    transition:  all 0.5s;
+}
+.navigation a:hover{
+    border-bottom: 1px solid #FF00FF;
+    cursor: pointer;  
+}
+.container h1:hover{
+    border-bottom: 1px solid #FF00FF; 
+    cursor: pointer;
+}
+.apresentacao{
+    color: #fff;
+    text-align: center;
+    margin: 2em auto;
+    font-size: 30px ;
+    width: 400px;
+    
+}
+.apresentacao span{
+    color:  #FF00FF;
+    font-size: 40px;
+}
+
+.apresentacao i::before{
+    content: "\f08c";
+    color: #fff;
+}
+.line{
+    height: 0.5px;
+    background: #fff;
+    width: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.apresentacao .container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.container i{
+    margin: 5px; 
+}
+.github{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.linkedin{
+    cursor: pointer;
+}
+.github,.linkedin:hover{
+    background:  #FF00FF;
+}
+
+.projects{
+    width: 940px;
+    margin: 50px auto;
+    display: flex;
+    color: #fff;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.projects a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #fff;
+}
+.projects a:hover{
+    transform: scale(1.3);
+    transition: all 0.5s;
+    color: #FF00FF;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.projects .line{
+    height: 4px;
+    margin: 45px 30px;
+    width: 100px;
+}
+.projects h2{
+    width: 80%;
+    margin-left: 50px;
+    font-size: 30px;
+    color: #FF00FF;
+}
+
+.resume{
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.resume h2{
+    font-size: 30px;
+    color: #FF00FF;
+    margin-left: 50px;
+}
+.resume a{
+    text-decoration: none;
+    border: 1px solid #FF00FF;
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    margin-top: 15px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.resume a:hover{
+    background: #FF00FF;
+    transform: scale(1.1);
+    transition: all 0.7;
+}
+
+
+.formulario{
+    flex-direction: column;
+    color: #FF00FF;
+    width: 940px;
+    margin: 2em auto;
+}
+.formulario h2{
+    font-size: 30px;
+    color: #FF00FF;
+    margin-left: 50px;
+}
+.formulario label{
+    color: #fff;
+    display: block;
+    margin: 20px 0;
+}
+.formulario textarea{
+    display: block;
+    width: 30%;
+    height: 150px;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 15px;
+}
+.btn{
+    color: #FF00FF;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    border-bottom: 1px solid #FF00FF;
+    background: none;
+    color: #fff;
+    
+}
+.btn:hover{
+    background: #FF00FF;
+    transition: all 0.7s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.formulario input{
+    width: 30%;
+    display: block;
+    margin-top: 10px;
+    padding: 10px 10px;
+}
