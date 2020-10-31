@@ -2,7 +2,7 @@
 <h2> Meu primeiro projeto pessoal realizado, usando como inspiração um repositorio no GitHub.</h2>
 
 <div align ="center">
-    <img widht="700px" style="border-radius: 10px;" src="/_images/SiteMy.gif" alt="Gif Do site">
+    <img widht="900px" style="border-radius: 10px;" src="/_images/SiteMy.gif" alt="Gif Do site">
 </div>
 
 <h2>🚀🚀 Tecnologias 🚀🚀</h2>
