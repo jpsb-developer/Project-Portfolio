@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
 body{
     background: #0F141E;
     font-family: 'Poppins', sans-serif;
@@ -38,6 +39,7 @@ body{
     margin: 2em auto;
     font-size: 30px ;
     width: 400px;
+    line-height: 45px;
     
 }
 .apresentacao span{
@@ -66,14 +68,23 @@ body{
     margin: 5px; 
 }
 .github{
+    width: 32px;
     margin-right: 20px;
     cursor: pointer;
+    transition: .7s all;
+    background-color: #fff;
+    border-radius: 17px;
 }
 .linkedin{
     cursor: pointer;
+    width: 32px;
+    transition: .7s all;
 }
-.github,.linkedin:hover{
-    background:  #FF00FF;
+.linkedin:hover{
+    transform: scale(1.2);
+}
+.github:hover{
+    transform: scale(1.2);
 }
 
 .projects{
@@ -90,22 +101,24 @@ body{
     font-size: 30px;
     margin-top: 10px;
     color: #fff;
+    transition: all 0.5s;
 }
 .projects a:hover{
-    transform: scale(1.3);
-    transition: all 0.5s;
     color: #FF00FF;
 }
 .txt{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    line-height: 48px;
 }
+
 .projects .line{
     height: 4px;
-    margin: 45px 30px;
+    margin: 50px 20px;
     width: 100px;
 }
+
 .projects h2{
     width: 80%;
     margin-left: 50px;
@@ -118,7 +131,6 @@ body{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-
 }
 .resume h2{
     font-size: 30px;
@@ -177,6 +189,7 @@ body{
     border-bottom: 1px solid #FF00FF;
     background: none;
     color: #fff;
+    font-family: 'Poppins', sans-serif;
     
 }
 .btn:hover{
