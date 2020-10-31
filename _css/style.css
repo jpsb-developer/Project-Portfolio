@@ -1,206 +1,204 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
-body{
-    background: #0F141E;
-    font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap");
+body {
+  background: #0f141e;
+  font-family: "Poppins", sans-serif;
 }
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.container{
-    color: #fff;
-    width: 940px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
+.container {
+  color: #fff;
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0px;
 }
-.navigation ul{
-    display: flex;
+.navigation ul {
+  display: flex;
 }
-.navigation a,h1{
-    font-weight: bold;
-    font-size: 1.2em;
-    margin: 0 20px;
-    color: #fff;
-    text-decoration: none;
-    transition:  all 0.5s;
+.navigation a,
+h1 {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s;
+  padding: 15px;
 }
-.navigation a:hover{
-    border-bottom: 1px solid #FF00FF;
-    cursor: pointer;  
+.navigation a:hover {
+  border-bottom: 1px solid #ff00ff;
 }
-.container h1:hover{
-    border-bottom: 1px solid #FF00FF; 
-    cursor: pointer;
+.container h1:hover {
+  border-bottom: 1px solid #ff00ff;
+  cursor: default;
 }
-.apresentacao{
-    color: #fff;
-    text-align: center;
-    margin: 2em auto;
-    font-size: 30px ;
-    width: 400px;
-    line-height: 45px;
-    
+.apresentacao {
+  color: #fff;
+  text-align: center;
+  margin: 2em auto;
+  font-size: 30px;
+  width: 400px;
+  line-height: 45px;
 }
-.apresentacao span{
-    color:  #FF00FF;
-    font-size: 40px;
-}
-
-.apresentacao i::before{
-    content: "\f08c";
-    color: #fff;
-}
-.line{
-    height: 0.5px;
-    background: #fff;
-    width: 100px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-.apresentacao .container{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-.container i{
-    margin: 5px; 
-}
-.github{
-    width: 32px;
-    margin-right: 20px;
-    cursor: pointer;
-    transition: .7s all;
-    background-color: #fff;
-    border-radius: 17px;
-}
-.linkedin{
-    cursor: pointer;
-    width: 32px;
-    transition: .7s all;
-}
-.linkedin:hover{
-    transform: scale(1.2);
-}
-.github:hover{
-    transform: scale(1.2);
+.apresentacao span {
+  color: #ff00ff;
+  font-size: 40px;
 }
 
-.projects{
-    width: 940px;
-    margin: 50px auto;
-    display: flex;
-    color: #fff;
-    flex-wrap: wrap;
-    align-items: center;
+.apresentacao i::before {
+  content: "\f08c";
+  color: #fff;
 }
-.projects a{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 30px;
-    margin-top: 10px;
-    color: #fff;
-    transition: all 0.5s;
+.line {
+  height: 0.5px;
+  background: #fff;
+  width: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-.projects a:hover{
-    color: #FF00FF;
+.apresentacao .container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
-.txt{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    line-height: 48px;
+.container i {
+  margin: 5px;
 }
-
-.projects .line{
-    height: 4px;
-    margin: 50px 20px;
-    width: 100px;
+.github {
+  width: 32px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.7s all;
+  background-color: #fff;
+  border-radius: 17px;
 }
-
-.projects h2{
-    width: 80%;
-    margin-left: 50px;
-    font-size: 30px;
-    color: #FF00FF;
+.linkedin {
+  cursor: pointer;
+  width: 32px;
+  transition: 0.7s all;
 }
-
-.resume{
-    width: 940px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+.linkedin:hover {
+  transform: scale(1.2);
 }
-.resume h2{
-    font-size: 30px;
-    color: #FF00FF;
-    margin-left: 50px;
-}
-.resume a{
-    text-decoration: none;
-    border: 1px solid #FF00FF;
-    color: #fff;
-    width: 30%;
-    text-align: center;
-    margin-top: 15px;
-    padding: 5px;
-    font-weight: bold;
-    font-size: 25px;
-    border-radius: 10px;
-    transition: all 0.5s;
-}
-.resume a:hover{
-    background: #FF00FF;
-    transform: scale(1.1);
-    transition: all 0.7;
+.github:hover {
+  transform: scale(1.2);
 }
 
+.projects {
+  width: 940px;
+  margin: 50px auto;
+  display: flex;
+  color: #fff;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.projects a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 10px;
+  color: #fff;
+  transition: all 0.5s;
+}
+.projects a:hover {
+  color: #ff00ff;
+}
+.txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 48px;
+}
 
-.formulario{
-    flex-direction: column;
-    color: #FF00FF;
-    width: 940px;
-    margin: 2em auto;
+.projects .line {
+  height: 4px;
+  margin: 50px 20px;
+  width: 100px;
 }
-.formulario h2{
-    font-size: 30px;
-    color: #FF00FF;
-    margin-left: 50px;
+
+.projects h2 {
+  width: 80%;
+  margin-left: 50px;
+  font-size: 30px;
+  color: #ff00ff;
 }
-.formulario label{
-    color: #fff;
-    display: block;
-    margin: 20px 0;
+
+.resume {
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
-.formulario textarea{
-    display: block;
-    width: 30%;
-    height: 150px;
-    margin-top: 15px;
-    border-radius: 8px;
-    padding: 15px;
+.resume h2 {
+  font-size: 30px;
+  color: #ff00ff;
+  margin-left: 50px;
 }
-.btn{
-    color: #FF00FF;
-    border: none;
-    border-radius: 10px;
-    font-size: 25px;
-    border-bottom: 1px solid #FF00FF;
-    background: none;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    
+.resume a {
+  text-decoration: none;
+  border: 1px solid #ff00ff;
+  color: #fff;
+  width: 30%;
+  text-align: center;
+  margin-top: 15px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 10px;
+  transition: all 0.5s;
 }
-.btn:hover{
-    background: #FF00FF;
-    transition: all 0.7s;
-    transform: scale(1.1);
-    cursor: pointer;
+.resume a:hover {
+  background: #ff00ff;
+  transform: scale(1.1);
+  transition: all 0.7;
 }
-.formulario input{
-    width: 30%;
-    display: block;
-    margin-top: 10px;
-    padding: 10px 10px;
+
+.formulario {
+  flex-direction: column;
+  color: #ff00ff;
+  width: 940px;
+  margin: 2em auto;
+}
+.formulario h2 {
+  font-size: 30px;
+  color: #ff00ff;
+  margin-left: 50px;
+}
+.formulario label {
+  color: #fff;
+  display: block;
+  margin: 20px 0;
+}
+.formulario textarea {
+  display: block;
+  width: 30%;
+  height: 150px;
+  margin-top: 15px;
+  border-radius: 8px;
+  padding: 15px;
+}
+.btn {
+  color: #ff00ff;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  border-bottom: 1px solid #ff00ff;
+  background: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.btn:hover {
+  background: #ff00ff;
+  transition: all 0.7s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.formulario input {
+  width: 30%;
+  display: block;
+  margin-top: 10px;
+  padding: 10px 10px;
 }
