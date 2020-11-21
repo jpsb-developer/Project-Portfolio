@@ -179,6 +179,7 @@ h1 {
   margin-top: 15px;
   border-radius: 8px;
   padding: 15px;
+  outline: none;
 }
 .btn {
   color: #ff00ff;
@@ -201,4 +202,5 @@ h1 {
   display: block;
   margin-top: 10px;
   padding: 10px 10px;
+  outline: none;
 }
